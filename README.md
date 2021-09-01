@@ -15,3 +15,5 @@ The main React functionality I learned are short-circuit evaluation and dynamic 
 ```
 npm install react-icons --save
 ``` 
+
+[Dark Theme, Material Design](https://material.io/design/color/dark-theme.html#ui-application)

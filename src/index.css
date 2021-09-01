@@ -2,6 +2,72 @@ body {
   margin:0;
   padding:0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
+.main-title{
+  text-align: center;
+  font-size: 3em;
+  margin: 50px;
+}
 
+.container{
+  display: flex;
+  flex-direction: row;
+  column-gap: 4em;
+  width: 60vw;
+  margin: auto;
+}
+
+.info-container h2{
+  margin-top: 0;
+  font-size: 2em;
+  color: #6200EE;
+}
+
+.company{
+  background-color: #e6e6e6;
+  border-radius: 4px;
+  width: 6em;
+  text-align: center;
+  font-weight: bold;
+  padding: 2px;
+  color: #3d3d3d;
+}
+
+.dates{
+  color: #018786;
+}
+
+.icon{
+  color: #6200EE;
+  margin-right: 1em;
+}
+
+.tabs-container{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  justify-content: flex-start;
+}
+
+.tab-btn{
+  background-color: transparent;
+  border:none;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 4px;
+  width: 8em;
+  font-size: 1.4em;
+  transition: all 0.1s linear;
+}
+
+.tab-btn:hover{
+  border-left: 2px solid #6200EE;
+  color:#6200EE;
+}
+
+.tab-active{
+  border-left: 2px solid #6200EE;
+  color:#6200EE;
+}

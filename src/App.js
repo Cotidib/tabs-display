@@ -31,26 +31,26 @@ function App() {
 
     return (
       <main>
-        <h1>Experience</h1>
+        <h1 className='main-title'>Experience</h1>
         <section className='container'> 
           <article className='tabs-container'>
             {
               data.map((job,index) => {
                 return <button className={`tab-btn ${index === currentTab && 'tab-active'}`} key={job.id} onClick={() => setCurrentTab(index)}>
-                  {job.title}
+                  {job.company}
                 </button> 
               })
             }
           </article>
           <article className='info-container'>
             <h2>{title}</h2>
-            <div>{company}</div>
-            <p>{dates}</p>
+            <div className='company'>{company}</div>
+            <p className='dates'>{dates}</p>
           
             {
               duties.map((duty, index) => {
                 return <div key={index}>
-                  <p><FaAngleDoubleRight/>{duty}</p>
+                  <p><FaAngleDoubleRight className='icon'/>{duty}</p>
                 </div>
               })
             }
