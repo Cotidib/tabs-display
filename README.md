@@ -5,7 +5,7 @@ This is my version of the Tabs project in ['Code 15 React Projects' course by Jo
 
 ### Overview and Learnings
 
-The main React functionality I learned are short-circuit evaluation and dynamic and conditional rendering. I made my own setup, styling and added a night mode switch feature to the original idea of the project.
+The main React functionality I learned are short-circuit evaluation, dynamic and conditional rendering and data fetching. I made my own setup, styling and added a night mode switch feature to the original idea of the project.
 
 ### Live Site
 https://constanzas-tabs-display.netlify.app/
